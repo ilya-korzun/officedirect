@@ -1,0 +1,24 @@
+.header {
+  padding-top: 1.8rem;
+  padding-bottom: 1.4rem;
+}
+
+
+.header .container {
+  margin-right: 35.8rem;
+}
+@media (max-width: 48em) {
+  .header {
+    padding-top: 2.4rem;
+    padding-bottom: 2.6rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 11.2rem;
+    z-index: 100;
+  }
+  .header .container {
+    margin-right: auto;
+  }
+}

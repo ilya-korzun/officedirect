@@ -1,0 +1,11 @@
+.facts__title {
+  @include font(900, 4.4rem, 120%);
+  text-align: center;
+}
+
+@media (max-width: 48em) {
+  .facts__title {
+    padding-top: 1rem;
+    font-size: 5.6rem;
+  }
+}

@@ -1,0 +1,18 @@
+.footer {
+  background-color: #191E32;
+  height: 25.4rem;
+  padding-top: 6.6rem;
+  z-index: 1000;
+}
+
+.footer .container {
+  padding-left: -2rem;
+}
+
+
+@media (max-width: 48em) {
+  .footer {
+    height: 93rem;
+    padding-top: 6.6rem;
+  }
+}

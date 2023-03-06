@@ -1,0 +1,14 @@
+.cart__img {
+  width: 27.8rem;
+  margin-bottom: 4.5rem;
+}
+
+@media (max-width: 48em) {
+  .cart__img {
+    height: 33rem;
+    margin-top: 2.4rem;
+    margin-bottom: 1.5rem;
+  
+  }
+
+}

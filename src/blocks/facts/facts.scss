@@ -1,0 +1,24 @@
+.facts {
+  padding-bottom: 10.9rem;
+  .title {
+    width: 119rem;
+
+    padding-bottom: 2.3rem;
+  }
+  .title span {
+    margin-left: 1rem;
+  }
+}
+
+
+@media (max-width: 48em) {
+  .facts {
+    .title {
+      width: 57.6rem;
+      font-size: 5.6rem;
+      padding-right: 0;
+      padding-bottom: 2.9rem;
+    }
+    padding-bottom: 13rem;
+  }
+}

@@ -1,0 +1,16 @@
+.features {
+  .container {
+    width: 118rem;
+  }
+  padding-top: 10.8rem;
+}
+
+@media (max-width: 48em) {
+  .features .container {
+    width: 100%;
+  }
+  .features {
+    padding-top: 15rem;
+  }
+
+}

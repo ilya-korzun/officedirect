@@ -1,0 +1,11 @@
+.facts__var {
+  display: flex;
+  align-items: center;
+}
+
+
+@media (max-width: 48em) {
+  .facts__var {
+    padding-right: 1rem;
+  }
+}

@@ -1,0 +1,14 @@
+.facts__item--active {
+  height: 20.6rem;
+  background-color: #f5f6fa;
+  box-shadow: 0 2rem 5.2rem -.8rem rgba(0, 0, 0, 0.15);
+  transition: .03s;
+}
+
+
+@media (max-width: 48em) {
+  .facts__item--active {
+    height: 33rem;
+    transition: .2s;
+  }
+}

@@ -1,0 +1,9 @@
+.slider__img-second {
+  display: none;
+}
+
+@media (max-width: 48em) {
+  .slider__img-second {
+    display: block;
+  }
+}

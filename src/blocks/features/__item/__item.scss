@@ -1,0 +1,21 @@
+.features__item {
+  width: 38.8rem;
+  opacity: .5;
+
+  }
+
+@media (max-width: 48em) {
+
+  .features__item {
+     position: relative;
+    opacity: 1;
+   
+    height: 28.4rem;
+    background: #FFFFFF;
+    border: .2rem solid #F3F4F7;
+    box-shadow: 0 4rem 10.4rem -1.6rem rgba(0, 0, 0, 0.15);
+    border-radius: 3.2rem;
+
+  }
+
+}

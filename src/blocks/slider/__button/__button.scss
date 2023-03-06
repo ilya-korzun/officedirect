@@ -1,0 +1,16 @@
+.slider__button {
+  display: none;
+}
+
+@media (max-width: 48em) {
+  .slider__wrap .drive-button {
+    display: none;
+  }
+ .slider__button {
+   @include font(600, 2.6rem, 140%);
+   margin-top: 0.3rem;
+   padding: 2.6rem 3.7rem 3rem;
+   border-radius: 1.6rem;
+   display: block;
+ }
+}

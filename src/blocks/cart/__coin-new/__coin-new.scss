@@ -1,0 +1,13 @@
+.cart__coin-new {
+  padding-top: 0.5rem;
+  letter-spacing: -0.05em;
+  @include font(900, 2.8rem, 140%);
+}
+
+@media (max-width: 48em) {
+  .cart__coin-new {
+
+    font-size: 4rem;
+    padding-top: .3rem ;
+  }
+}

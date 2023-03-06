@@ -1,0 +1,14 @@
+.features__items-col2 .features__item:not(:last-child) {
+  margin-bottom: 2.8rem;
+}
+.features__items-col2 .features__item:last-child {
+  width: 35.2rem;
+}
+
+
+
+@media (max-width: 48em) {
+  .features__items-col2 {
+    display: none;
+  }
+}

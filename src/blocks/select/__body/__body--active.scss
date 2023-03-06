@@ -1,0 +1,9 @@
+.select__body--active {
+  z-index: 100;
+  display: block;
+  padding: 2rem;
+  background-color: #fff;
+  border: .1rem solid #EDEDF2;
+  box-shadow: 0 .5rem 1rem rgba(157, 160, 166, 0.15);
+  border-radius: .8rem;
+}

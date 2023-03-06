@@ -1,0 +1,8 @@
+.select__title {
+  @include font(500, 1.6rem, 140%);
+  max-width: 19rem;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

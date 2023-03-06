@@ -1,0 +1,15 @@
+.features__subtitle {
+  @include font(600, 2.2rem, 140%);
+
+  color: #2B3350;
+  // opacity: 0.5;
+}
+
+
+@media(max-width:48em) {
+  .features__subtitle {
+    padding-top: 4.6rem;
+    text-align: center;
+    font-size: 3.4rem;
+  }
+}

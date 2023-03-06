@@ -1,0 +1,17 @@
+
+
+.features__items-col1 .features__item:nth-child(4) {
+  width: 35.2rem;
+}
+
+.features__items-col1 .features__item:not(:last-child) {
+  margin-bottom: 2.8rem;
+}
+
+
+@media (max-width: 48em) {
+  .features__items-col1 {
+    display: none;
+  }
+
+}

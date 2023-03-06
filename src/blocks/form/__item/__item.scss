@@ -1,0 +1,16 @@
+.form__item {
+  display: flex;
+  &:first-child {
+    margin-bottom: 2.3rem;
+  }
+}
+
+
+@media (max-width: 48em) {
+  .form__item {
+    flex-direction: column ;
+    &:first-child {
+    margin-bottom: 2.8rem;
+    }
+  }
+}

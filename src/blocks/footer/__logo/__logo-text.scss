@@ -1,0 +1,23 @@
+.footer__logo-text {
+  text-align: center;
+  text-transform: uppercase;
+  @include font(normal, 1rem, 150%);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: -0.5rem;
+  letter-spacing: 0.1em;
+  margin-top: -0.4rem;
+  padding-right: 0.8rem;
+  color: #959AAE;
+
+}
+
+@media (max-width: 48em) {
+  .footer__logo-text {
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+
+}

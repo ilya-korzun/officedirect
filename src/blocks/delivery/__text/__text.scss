@@ -1,0 +1,11 @@
+.delivery__text {
+  @include centered;
+  flex-direction: column;
+}
+
+// @media (max-width: 48em) {
+//   .delivery__text {
+//     width: 46.6rem;
+//     margin-left: 2.2rem;
+//   }
+// }

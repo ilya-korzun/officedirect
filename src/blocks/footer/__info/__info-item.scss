@@ -1,0 +1,20 @@
+.footer__info-item {
+  @include vercen;
+  &:not(:last-child) {
+    margin-bottom: 1.9rem;
+  }
+  margin-left: 8.2rem;
+}
+
+
+@media (max-width: 48em) {
+  .footer__info-item {
+    margin-left: 0;
+    &:not(:last-child) {
+      margin-bottom: 2.2rem;
+    }
+    &:last-child {
+      width: 50.6rem;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.header__wrapper {
+  width: 18.4rem;
+  padding-top: .3rem;
+}
+
+@media (max-width: 48em) {
+  .header__wrapper {
+    width: 26.6rem;
+    height: 6.18rem;
+    // padding-top: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

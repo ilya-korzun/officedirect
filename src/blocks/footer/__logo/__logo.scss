@@ -1,0 +1,15 @@
+.footer__logo {
+  display: block;
+  width: 18.4rem;
+  height: 4.2rem;
+  margin-left: .6rem;
+  margin-bottom: 1.6rem;
+}
+
+@media (max-width: 48em) {
+  .footer__logo {
+    width: 36.8rem;
+    height: 8.4rem;
+    margin-left: 0;
+  }
+}

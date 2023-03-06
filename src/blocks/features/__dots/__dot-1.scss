@@ -1,0 +1,21 @@
+.features__dot-1 {
+  position: absolute;
+  width: 1.4rem;
+  height: 1.4rem;
+  top: 0rem;
+  left: 10rem;
+  background: #7BEC6D;
+  border: .5rem solid rgba(171, 247, 161, 0.25);
+  border-radius: 50%;
+  box-shadow: 0 0 .5rem 1rem rgba(240, 246, 240, 0.35);
+  cursor: pointer;
+}
+
+@media (max-width: 48em) {
+  .features__dot-1 {
+
+    border: .5rem solid rgba(171, 247, 161, 0.25);
+    box-shadow: 0 0 .1rem 1rem rgba(171, 247, 161, 0.35);
+  }
+}
+

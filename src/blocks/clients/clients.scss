@@ -1,0 +1,11 @@
+
+.clients {
+  padding-bottom: 17rem;
+}
+
+
+@media (max-width: 48em) {
+  .clients {
+    padding-bottom: 0;
+  }
+}

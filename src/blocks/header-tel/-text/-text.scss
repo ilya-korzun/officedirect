@@ -1,0 +1,14 @@
+.header-tel-text {
+  padding-top: 0.2rem;
+  @include font(500, 1.9rem, 140%);
+  color: #2B3350;
+  padding-left: 2rem;
+}
+
+@media (max-width: 48em) {
+  .header-tel-text {
+    @include font(500, 2.8rem, 140%);
+    font-weight: 500;
+    
+  }
+}

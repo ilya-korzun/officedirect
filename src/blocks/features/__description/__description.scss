@@ -1,0 +1,17 @@
+.features__description {
+  @include font(400, 1.5rem, 160%);
+  color: #576077;
+
+  // opacity: 0.5;
+}
+
+
+@media (max-width: 48em) {
+  .features__description {
+    text-align: center;
+
+    font-size: 2.8rem;
+    line-height: 140%;
+    height: 14.4rem;
+  }
+}

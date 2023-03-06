@@ -1,0 +1,36 @@
+.active {
+  display: flex;
+}
+
+.noscroll {
+  overflow: hidden !important;
+  height: 100% !important;
+  margin-right: 1.7rem;
+  // & .header {
+  //   position: relative;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   z-index: 100;
+  // }
+}
+
+.just-validate-error-label {
+  padding-top: 0.1rem;
+  padding-left: 1rem;
+  font-size: 1.9rem;
+}
+
+@media (max-width: 48em) {
+  .noscroll {
+    margin-right: 0;
+    // & .header {
+    //   // position: fixed;
+    //   top: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   z-index: 100;
+    // }
+  }
+
+}

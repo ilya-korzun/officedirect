@@ -1,0 +1,10 @@
+.select__header {
+  @include vercen;
+  img {
+    width: 1.6rem;
+    height: 2.4rem;
+    flex-shrink: 0;
+    margin-left: .4rem;
+    margin-top: .3rem;
+  }
+}

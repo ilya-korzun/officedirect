@@ -1,0 +1,18 @@
+.features__info {
+  padding-top: 1.4rem;
+  @include font(400, 2.3rem, 160%);
+  padding-left: 2rem;
+  text-align: center;
+
+  color: #576077;
+}
+
+@media (max-width: 48em) {
+  .features__info {
+    padding-left: 0;
+    padding-top: 1rem;
+    margin-left: -.8rem;
+    width: 59rem;
+    font-size: 2.8rem;
+  }
+}

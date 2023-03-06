@@ -1,0 +1,12 @@
+.clients__title {
+  text-align: center;
+  @include font(900, 4.4rem, 120%);
+  margin-bottom: 1.7rem;
+}
+
+@media (max-width: 48em) {
+  .clients__title {
+    font-size: 5.6rem;
+    margin-bottom: 5.2rem;
+  }
+}

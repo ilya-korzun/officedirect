@@ -1,0 +1,16 @@
+.form__header {
+  @include font(900, 4.4rem, 120%);
+  padding-top: 0.6rem;
+  margin-bottom: 1rem;
+  max-width: 58.4rem;
+}
+
+
+@media (max-width: 48em) {
+  .form__header {
+    width: 55.4rem;
+    font-size: 5.6rem;
+    margin-bottom: 1.2rem;
+    margin-left: 1rem;
+  }
+}

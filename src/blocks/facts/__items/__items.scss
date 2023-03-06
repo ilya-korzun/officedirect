@@ -1,0 +1,13 @@
+.facts__items {
+  padding-left: 10rem;
+  padding-right: 9.1rem;
+}
+
+
+@media (max-width: 48em) {
+  .facts__items {
+    padding-left: 0;
+    padding-right: 0;
+    
+  }
+}

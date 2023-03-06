@@ -1,0 +1,17 @@
+.footer__text {
+  &:last-child {
+
+    margin-top: 0.6rem;
+  }
+  @include font(500, 1.4rem, 140%);
+
+  color: #959AAE;
+}
+
+@media (max-width: 48em) {
+  .footer__text {
+    margin-top: 1rem;
+    font-size: 2.6rem;
+    width: 100%;
+  }
+}

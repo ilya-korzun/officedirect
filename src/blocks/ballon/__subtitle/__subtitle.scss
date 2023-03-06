@@ -1,0 +1,4 @@
+.ballon__subtitle {
+  @include font(300, 1.5rem, 140%);
+  border-bottom: 1px solid gray
+}

@@ -1,0 +1,12 @@
+.facts__text {
+  @include font(600, 2.2rem, 140%);
+}
+
+
+@media (max-width: 48em) {
+  .facts__text {
+    font-size: 2.8rem;
+    line-height: 100%;
+    width: 43rem;
+  }
+}

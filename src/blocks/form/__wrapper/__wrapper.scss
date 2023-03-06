@@ -1,0 +1,19 @@
+.form__wrapper {
+  position: relative;
+  width: 180rem;
+  margin: 0 auto;
+  margin-left: 6rem;
+  padding-top: 13.6rem;
+  padding-bottom: 10.4rem;
+
+}
+
+
+@media (max-width: 48em) {
+  .form__wrapper {
+    width: 64rem;
+    text-align: center;
+      margin-left: 0;
+      padding-top: 12.6rem;
+  }
+}

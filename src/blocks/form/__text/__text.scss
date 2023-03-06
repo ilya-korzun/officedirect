@@ -1,0 +1,50 @@
+.form__text {
+  display: flex;
+  @include font(300, 1.8rem, 122%);
+  letter-spacing: .05rem;
+  cursor: pointer;
+
+  &:before {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: .5rem;
+    background: #576077;
+    border: .1rem solid #6f7487;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  
+ 
+}
+
+
+@media (max-width: 48em) {
+  .form__text {
+    display: flex;
+    flex-wrap: wrap;
+    
+    font-size: 2.4rem;
+    text-align: left;
+    line-height: 91.52%;
+    letter-spacing: 0;
+   span {
+      margin-left: 6rem;
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 1rem;
+      background: #576077;
+      border: .1rem solid #6f7487;
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.features__dots {
+  width: 40.4rem;
+  height: 52.3rem;
+  position: relative;
+
+}
+
+
+@media (max-width: 48em) {
+  .features__dots {
+    margin-left: 11.8rem;
+    margin-top: -1rem;
+  }
+}

@@ -1,0 +1,16 @@
+.features__slider {
+  display: none;
+}
+
+@media (max-width: 48em) {
+  .features__slider {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    margin-top:11rem;
+    padding-bottom: 11.8rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}

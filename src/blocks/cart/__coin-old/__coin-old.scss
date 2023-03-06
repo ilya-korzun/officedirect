@@ -1,0 +1,12 @@
+.cart__coin-old {
+  position: relative;
+  letter-spacing: -0.05em;
+  @include font(700, 2rem, 140%);
+}
+
+@media (max-width: 48em) {
+  .cart__coin-old {
+
+    font-size: 3.4rem;
+  }
+}

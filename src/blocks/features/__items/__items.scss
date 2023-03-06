@@ -1,0 +1,11 @@
+.features__items {
+  padding-top: 9.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 48em) {
+  .features__items {
+    flex-direction: column-reverse;
+  }
+}

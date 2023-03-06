@@ -1,0 +1,12 @@
+.drive__wrapper {
+  width: 180rem;
+  margin: 0 auto;
+  margin-left: 6rem;
+}
+
+@media (max-width: 48em) {
+  .drive__wrapper {
+    width: 100%;
+margin-left: 0;
+  }
+}
